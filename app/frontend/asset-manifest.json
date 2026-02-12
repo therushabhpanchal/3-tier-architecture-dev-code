@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.549ad1bb.css",
+    "main.js": "./static/js/main.cedb78b3.js",
+    "static/js/453.4cfe9ff7.chunk.js": "./static/js/453.4cfe9ff7.chunk.js",
+    "static/media/3TierArch.png": "./static/media/3TierArch.5eaf8249bacca6c2dce1.png",
+    "index.html": "./index.html",
+    "main.549ad1bb.css.map": "./static/css/main.549ad1bb.css.map",
+    "main.cedb78b3.js.map": "./static/js/main.cedb78b3.js.map",
+    "453.4cfe9ff7.chunk.js.map": "./static/js/453.4cfe9ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.549ad1bb.css",
+    "static/js/main.cedb78b3.js"
+  ]
+}
