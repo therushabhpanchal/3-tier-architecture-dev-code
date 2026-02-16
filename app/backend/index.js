@@ -2,6 +2,8 @@ const transactionService = require('./TransactionService');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const os = require('os');
+const fetch = require('node-fetch');
 
 const app = express();
 const port = 4000;
@@ -15,6 +17,18 @@ app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK' });
 });
 
+//backend test
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
+
+//whoami test
+app.get("/whoami", (req, res) => {
+  res.json({
+    hostname: os.hostname(),
+    privateIp: req.socket.localAddress
+  });
+});
 
 // ADD TRANSACTION
 app.post('/api/transaction', async (req, res) => {
